@@ -6,8 +6,6 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-
   <div class="keys">
     <div data-key="65" class="key">
       <kbd>A</kbd>
@@ -47,7 +45,6 @@
   <audio data-key="72" src="sounds/cow-and-bell.wav"></audio>
   <audio data-key="74" src="sounds/simple-moo.wav"></audio>
 
-
 <script>
   window.addEventListener('keydown', function(e) {
     const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
@@ -57,7 +54,5 @@
   });
 
 </script>
-
-
 </body>
 </html>
